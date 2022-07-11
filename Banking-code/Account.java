@@ -33,7 +33,7 @@ public class Account extends Bank
         dd.setAccountBalance(sc2.nextInt());
         if(dd.getAccountBalance()>=10000)
         {
-    		System.out.println("Sucessfuly Deposited");
+    		System.out.println("Sucessfully Deposited");
     	}
         else 
         {
@@ -44,7 +44,7 @@ public class Account extends Bank
 	}
 	void showBankDetails()
 	{
-		System.out.println(  dd.getName()+"  Bank Detail "  );
+	System.out.println(  dd.getName()+"  Bank Detail "  );
         System.out.println("Account number: "+dd.getAccountNo());
         System.out.println("Name: " + dd.getName());
         System.out.println("Phone Number:"+ dd.getPhoneno());
@@ -55,10 +55,10 @@ public class Account extends Bank
 	 }
 	 void showLoanDetails() 
 	 {
-			System.out.println(dd.getName()+"  Loan Detail  ");
-			System.out.println("Bank Name:"+dd.getBankName());
-		 	System.out.println("Loan Account number: "+dd.getLoanAccountNo());
-		 	System.out.println("Loan Amount:"+dd.getLoanAmount());
+		System.out.println(dd.getName()+"  Loan Detail  ");
+		System.out.println("Bank Name:"+dd.getBankName());
+		 System.out.println("Loan Account number: "+dd.getLoanAccountNo());
+		 System.out.println("Loan Amount:"+dd.getLoanAmount());
 	        System.out.println("Name: " + dd.getName());
 	        System.out.println("Phone Number:"+ dd.getPhoneno());
 	        System.out.println("Pan Number:"+ dd.getPanNo());
@@ -73,16 +73,16 @@ public class Account extends Bank
 		  switch(ch)
 		  {
 		  	case 1:
-		  			showBankDetails();
-		  			System.out.println("     Print    \n");
-		  			break;
+		  		showBankDetails();
+		  		System.out.println("     Print    \n");
+		  		break;
 		  	case 2:
-		  			showLoanDetails();
-		  			System.out.println("     Print    \n");
-		  			break;
+		  		showLoanDetails();
+		  		System.out.println("     Print    \n");
+		  		break;
 		  	default:
-		  			System.out.println("Thankyou):");
-		  			break;
+		  		System.out.println("Thankyou):");
+		  		break;
 		  }
 		  
 	 }	
